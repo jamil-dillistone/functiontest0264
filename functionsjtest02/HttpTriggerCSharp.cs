@@ -28,7 +28,7 @@ namespace functionsjtest02
 
             return name == null
                 ? req.CreateResponse(HttpStatusCode.BadRequest, "Please pass a name on the query string or in the request body")
-                : req.CreateResponse(HttpStatusCode.OK, "V3. Hello " + name);
+                : req.CreateResponse(HttpStatusCode.OK, "V4. Hello " + name);
         }
     }
 }
